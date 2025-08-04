@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Muluka - Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Daniel</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">Hi, I'm Daniel Muluka – Software Developer & Tech Innovator</h2>
+                    <p class="hero-subtitle">Passionate about creating intelligent solutions and turning data into insights</p>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image-container">
+                        <img src="C:\Users\Brian Muema\Pictures\PSX_20250731_212351 (1).jpg" alt="Daniel Muluka" class="profile-image" onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';">
+                        <div class="profile-image-placeholder" id="profile-placeholder">
+                            <div class="profile-initials">DM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Am a self motivated and proactive Software Engineering graduate with five years of academic and hands-on experience in this field
+                    I'm Skilled in Java, Python, Full-Stack Development and Databases with a strong foundation in algorithms, problem-solving, and teamwork
+                    Seeking opportunities to apply technical  expertise in a dynamic software development role.
+                </p>
+                <div class="cv-download">
+                    <a href="C:\Users\Brian Muema\Documents\Document (1).pdf" class="cv-button" download>
+                        <span class="cv-icon">📄</span>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">AI Chat Assistant</h3>
+                    <p class="project-description">
+                        Developed an intelligent chatbot using natural language processing and machine learning 
+                        algorithms to provide personalized customer support and automated responses.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">NLP</span>
+                    </div>
+                    <button class="project-button">View Project</button>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Weather App</h3>
+                    <p class="project-description">
+                        Created an interactive weather app to show real-time Weather.
+                        This enables people to plan for their activities.
+                     </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">API</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    <button class="project-button">View Project</button>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Machine Learning Model</h3>
+                    <p class="project-description">
+                        Built and deployed a machine learning model for predictive analysis with 95% 
+                        accuracy, including data preprocessing, feature engineering, and model optimization.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">Flask</span>
+                    </div>
+                    <button class="project-button">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <span class="skill-badge">HTML</span>
+                <span class="skill-badge">CSS</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">Data Analysis</span>
+                <span class="skill-badge">TensorFlow</span>
+                <span class="skill-badge">PyTorch</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">Pandas</span>
+                <span class="skill-badge">NumPy</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="social-links">
+                    <h3 class="social-title">Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-link">
+                            <span class="social-icon">📱</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Daniel Muluka. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
